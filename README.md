@@ -32,6 +32,12 @@ Run python Export_csv.py with no LabJack attached. The script reports "Device no
 
 Non-standard hardware. Acquiring optical density data requires the custom-built photometer described below. No hardware is needed to run the demo, which uses the script's built-in test-voltage path.
 
+Software dependencies and operating system. Windows 11, Python 3.1.2, LabJackPython 2.3.0, and the LabJack UD driver 3.53, installed as part of the LabJack U3 software package.
+
+Versions tested. The V1 acquisition script was developed and tested with the versions listed above.
+
+Typical install time. Approximately 10 to 15 minutes on a normal desktop computer with a broadband connection: about 5 minutes for the LabJack software package including the UD driver, and 5 minutes to create the conda environment and install LabJackPython.
+
 ## Component: part
 - Data acquisition: LabJack U3-HV (LabJack Corporation, Lakewood, CO), USB-powered from the host computer
 - Light source: Cree C503B-AAN-CY0B0251 amber LED, 591 nm typical dominant wavelength
@@ -40,3 +46,5 @@ Non-standard hardware. Acquiring optical density data requires the custom-built 
 - Enclosure: 3D-printed PLA tube holder, 65 mm tall by 18.5 mm internal diameter, with 5 mm perpendicular mounting tubes extending 15 mm, housed in a printed light-shielding case
 
 Operating system and drivers: Windows, with the LabJack UD driver installed as part of the LabJack software package. The launcher is a .bat script and the CSV open step uses os.startfile, both Windows-specific.
+
+
