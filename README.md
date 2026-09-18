@@ -32,7 +32,7 @@ Run python Export_csv.py with no LabJack attached. The script reports "Device no
 
 Non-standard hardware. Acquiring optical density data requires the custom-built photometer described below. No hardware is needed to run the demo, which uses the script's built-in test-voltage path.
 
-Software dependencies and operating system. Windows 11, Python 3.1.2, LabJackPython 2.3.0, and the LabJack UD driver 3.53, installed as part of the LabJack U3 software package.
+Software dependencies and operating system. Windows 11, Python version 3.12.11, LabJackPython 2.3.0, and the LabJack UD driver 3.53, installed as part of the LabJack U3 software package.
 
 Versions tested. The V1 acquisition script was developed and tested with the versions listed above.
 
